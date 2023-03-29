@@ -52,16 +52,16 @@ get_header(); ?>
       <div class="container">
   <div class="row">
     <div class="col-sm">
-    <a href="/product-tag/alternatives/"><h1>Alternatives</h1></a>
+    <a href="/product-tag/kratom/"><h1>Kratom</h1></a>
     </div>
     <div class="col-sm">
-    <a href="/product-tag/capsules/"><h1>Capsules</h1></a>
+    <a href="/product-tag/kratom-alternative/"><h1>Kratom Alternatives</h1></a>
     </div>
     <div class="col-sm">
-      <a href="/product-tag/powder/"><h1>Powder</h1></a>
+      <a href="/product-tag/incense-smudge/"><h1>Incense & Smudge</h1></a>
     </div>
     <div class="col-sm">
-      <a href="/product-tag/liquid/"><h1>Liquid</h1></a>
+      <a href="/product-tag/specialty-herbs/"><h1>Specialty Herbs</h1></a>
     </div>
   </div>
 </div>
@@ -96,16 +96,22 @@ get_header(); ?>
       <div class="container">
   <div class="row">
     <div class="col-sm">
-    <a href="/product-tag/alternatives/"><h1>Alternatives</h1></a>
+    <a href="/product-category/chief-kratom/"><h1>Chief Kratom</h1></a>
     </div>
     <div class="col-sm">
-    <a href="/product-tag/capsules/"><h1>Capsules</h1></a>
+    <a href="/product-category/o-p-m-s-kratom/"><h1>O.P.M.S. Kratom</h1></a>
     </div>
     <div class="col-sm">
-      <a href="/product-tag/powder/"><h1>Powder</h1></a>
+    <a href="/product-category/remarkable-herbs/"><h1>Remarkable Herbs</h1></a>
     </div>
     <div class="col-sm">
-      <a href="/product-tag/liquid/"><h1>Liquid</h1></a>
+    <a href="/product-category/satya-sai-baba/"><h1>Satya Sai Baba</h1></a>
+    </div>
+    <div class="col-sm">
+      <a href="/product-category/whole-herbs/"><h1>Whole Herbs</h1></a>
+    </div>
+    <div class="col-sm">
+      <a href="/product-category/xxx-kratom/"><h1>XXX Kratom</h1></a>
     </div>
   </div>
 </div>
