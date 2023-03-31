@@ -26,13 +26,13 @@ get_header(); ?>
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/water.jpg" width='1200vw' height='1200vh' alt=""" alt="First slide">
+      <img class="d-block h-80 w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/water.jpg" width='1200vw' height='1200vh' alt=""" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/advent.jpg" alt="Second slide">
+      <img class="d-block h-80 w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/advent.jpg" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/greenery.jpg" alt="Third slide">
+      <img class="d-block h-80 w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/greenery.jpg" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -71,7 +71,7 @@ get_header(); ?>
     <h1>New Arrivals</h1>
   </div>
   <!-- ADS END  -->
-  <div class="container-md">
+  <div class="container-md spacer">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -175,7 +175,15 @@ get_header(); ?>
     </a>
     </div>
   </div>
-
+  </div>
+  </div>
+  </div>
+  
+<!-- ADS -->
+<div class="container-fluid adsSection">
+    <h1>Newsletter Sign-ups</h1>
+  </div>
+  <!-- ADS END  -->
   <?php
     the_content();
     // air_edit_link();
