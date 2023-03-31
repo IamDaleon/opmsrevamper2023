@@ -66,7 +66,11 @@ get_header(); ?>
   </div>
 </div>
   </div>
-
+  <!-- ADS -->
+  <div class="container-fluid adsSection">
+    <h1>New Arrivals</h1>
+  </div>
+  <!-- ADS END  -->
   <div class="container-md">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -90,7 +94,7 @@ get_header(); ?>
     </a>
   </div>
   </div>
-
+<!-- BY BRAND -->
   <div class="container text-center">
       <h1>- By Brand -</h1>
       <div class="container">
@@ -115,6 +119,61 @@ get_header(); ?>
     </div>
   </div>
 </div>
+  </div>
+  <!-- BRAND END -->
+
+  <!-- ADS -->
+  <div class="container-fluid adsSection">
+    <h1>New ADS</h1>
+  </div>
+  <!-- ADS END  -->
+  <div class="container text-center">
+      <h1>- LATEST FROM THE PRESS -</h1>
+      <div class="container">
+  <div class="row">
+    <div class="col-sm">
+    <a href="/product-category/chief-kratom/">
+      <div class="card">
+      <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/advent.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">O.P.M.S. <br />KRATOM RED</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <br />
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    </a>
+    </div>
+    <div class="col-sm">
+    <a href="/product-category/o-p-m-s-kratom/">
+      <div class="card">
+      <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/greenery.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">
+          INCENSE & SMUDGE
+        </h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <br />
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    </a>
+    </a>
+    </div>
+    <div class="col-sm">
+    <a href="/product-category/remarkable-herbs/">
+      <div class="card">
+      <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/advent.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">OPMS <br />KRATOM SILVER</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <br />
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    </a>
+    </a>
+    </div>
   </div>
 
   <?php
