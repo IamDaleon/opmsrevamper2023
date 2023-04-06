@@ -26,7 +26,7 @@ get_header(); ?>
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block h-80 w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/water.jpg" width='1200vw' height='1200vh' alt=""" alt="First slide">
+      <img class="d-block h-80 w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/water.jpg" alt="" alt="First slide">
     </div>
     <div class="carousel-item">
       <img class="d-block h-80 w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/advent.jpg" alt="Second slide">
@@ -67,8 +67,10 @@ get_header(); ?>
 </div>
   </div>
   <!-- ADS -->
-  <div class="container-fluid adsSection">
-    <h1>New Arrivals</h1>
+  <div class="adsSection">
+    <!-- <h1>New Arrivals!!</h1> -->
+    <img class="d-block h-50 w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/redADS.png" alt="ADVENT" height=1200;>
+
   </div>
   <!-- ADS END  -->
   <div class="container-md spacer">
