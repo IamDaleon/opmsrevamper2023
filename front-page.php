@@ -21,28 +21,45 @@ $thumbnail = wp_get_attachment_url( get_post_thumbnail_id() ) ?: THEME_SETTINGS[
 
 
 get_header(); ?>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script> -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block h-80 w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/water.jpg" alt="" alt="First slide">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/water.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block h-80 w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/advent.jpg" alt="Second slide">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/advent.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block h-80 w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/greenery.jpg" alt="Third slide">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/greenery.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 <!-- <main class="site-main"> -->
   
@@ -73,29 +90,66 @@ get_header(); ?>
 
   </div>
   <!-- ADS END  -->
-  <div class="container-md spacer">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block h-50 w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/advent.jpg" alt="First slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/advent.jpg" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src="<?php echo get_template_directory_uri(); ?>/assets/imgs/advent.jpg" alt="Third slide">
+  <!-- <div class="container-md spacer">
+  <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/water.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
+    <div class="carousel-item">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/advent.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/imgs/greenery.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div> -->
+  <div class="wrapper">
+  <div class="brand-scroller">
+    <div class="sec1"><a href="/search/sale"><img class="brand-icon"
+        src="https://mainline-menswear-res.cloudinary.com/f_auto,q_auto/mainlinemenswear/images/minilogos/ArmaniExchange.gif" /></a>
+    <a href="/search/sale"><img class="brand-icon"
+        src="https://mainline-menswear-res.cloudinary.com/f_auto,q_auto/mainlinemenswear/images/minilogos/nike.gif" /></a>
+    <a href="/search/sale"><img class="brand-icon"
+        src="https://mainline-menswear-res.cloudinary.com/f_auto,q_auto/mainlinemenswear/images/minilogos/HUGOBOSS.gif" /></a>
+    <a href="/search/sale"><img class="brand-icon"
+        src="https://mainline-menswear-res.cloudinary.com/f_auto,q_auto/mainlinemenswear/images/minilogos/barbour.gif" /></a></div>
+    <div class="sec2"><a href="/search/sale"><img class="brand-icon"
+        src="https://mainline-menswear-res.cloudinary.com/f_auto,q_auto/mainlinemenswear/images/minilogos/cpcompany.gif" /></a>
+    <a href="/search/sale"><img class="brand-icon"
+        src="https://mainline-menswear-res.cloudinary.com/f_auto,q_auto/mainlinemenswear/images/minilogos/prettygreen.gif" /></a>
+    <a href="/search/sale"><img class="brand-icon"
+        src="https://mainline-menswear-res.cloudinary.com/f_auto,q_auto/mainlinemenswear/images/minilogos/underarmour.gif" /></a>
+    <a href="/search/sale"><img class="brand-icon"
+        src="https://mainline-menswear-res.cloudinary.com/f_auto,q_auto/mainlinemenswear/images/minilogos/belstaff.gif" /></a></div>
   </div>
+</div>
 <!-- BY BRAND -->
   <div class="container text-center">
       <h1>- By Brand -</h1>

@@ -1,7 +1,7 @@
 // The styles of the most important page on the website go here (front-page).
 .adsSection{
     text-align: center;
-    background-color: black;
+    // background-color: black;
     height: 100%;
     width: auto;
     // padding-top: 25px;
@@ -10,4 +10,49 @@
 
 .spacer{
     padding-top: 75px;
+}
+
+.wrapper { 
+    // background: #eeeeee; 
+    // margin-bottom: 150px; 
+    text-align: center; 
+    vertical-align: center;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding: 15px 5px;
+}
+.brand-scroller { 
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 200px;
+    white-space:nowrap
+} 
+.imageDiv brand-icon {  
+margin: 20px;
+display:inline-block;
+*display:inline;
+vertical-align:top;
+
+}
+
+.brand-icon{
+border-radius: 50%;
+border: 5px solid #dbdbdb;
+height: 110px;
+margin: 5px 5px 5px 5px;
+}
+
+@media screen and (min-width: 1070px){
+    .wrapper{
+        height: 200px;
+    }
+    .brand-scroller{
+        display: inline-flex;
+        padding-bottom: 150px;
+        height: 300px;
+    }
+    .sec1 .sec2{
+        display: grid !important;
+    }
 }
