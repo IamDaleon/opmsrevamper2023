@@ -156,7 +156,7 @@ get_header(); ?>
       <div class="container">
   <div class="row">
     <div class="col-sm">
-    <a href="/product-category/chief-kratom/"><h1>Chief Kratom</h1></a>
+    <a href="/product-category/chief-kratom/"><h1>Chief Kratom!</h1></a>
     </div>
     <div class="col-sm">
     <a href="/product-category/o-p-m-s-kratom/"><h1>O.P.M.S. Kratom</h1></a>
